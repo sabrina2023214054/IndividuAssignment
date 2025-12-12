@@ -18,7 +18,6 @@ public class AboutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
-        // --- Toolbar setup ---
         Toolbar toolbar = findViewById(R.id.customToolbar);
         setSupportActionBar(toolbar);
 
@@ -27,12 +26,12 @@ public class AboutActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        // 🔥 MAKE BACK ARROW BLACK
+
         if (toolbar.getNavigationIcon() != null) {
             toolbar.getNavigationIcon().setTint(getColor(android.R.color.black));
         }
 
-        // --- GitHub button ---
+
         TextView githubLink = findViewById(R.id.txtGithub);
         githubLink.setOnClickListener(view -> {
             String repoUrl = "https://github.com/sabrina2023214054/IndividuAssignment";

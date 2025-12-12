@@ -22,18 +22,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Inputs
+
         edtInvested = findViewById(R.id.edtInvested);
         edtRate = findViewById(R.id.edtRate);
         edtMonths = findViewById(R.id.edtMonths);
         btnCalculate = findViewById(R.id.btnCalculate);
         txtResult = findViewById(R.id.txtResult);
 
-        // Toolbar setup
+
         Toolbar toolbar = findViewById(R.id.customToolbar);
         setSupportActionBar(toolbar);
 
-// MAKE 3 DOT MENU ICON BLACK
+
         if (toolbar.getOverflowIcon() != null) {
             toolbar.getOverflowIcon().setTint(getResources().getColor(android.R.color.black));
         }
@@ -43,22 +43,20 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        // Set title inside toolbar.xml
+
         TextView toolbarTitle = toolbar.findViewById(R.id.txtToolbarTitle);
         toolbarTitle.setText("Dividend Calculator App");
 
-        // Button action
         btnCalculate.setOnClickListener(v -> calculateDividend());
     }
 
-    // Inflate menu (3 dots)
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
 
-    // Menu actions
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/pastel_pink">
 
-    <!-- FULL-WIDTH Toolbar -->
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/customToolbar"
         android:layout_width="match_parent"
@@ -16,9 +16,6 @@
         android:elevation="6dp" />
 
 
-
-
-    <!-- Content area -->
     <LinearLayout
         android:orientation="vertical"
         android:padding="20dp"
@@ -35,7 +32,7 @@
             android:layout_gravity="center"
             android:src="@drawable/calculator_img"
             android:scaleType="centerCrop" />
-        <!-- Title -->
+
         <TextView
             android:id="@+id/txtTitle"
             android:text="Dividend Calculator App"
@@ -47,7 +44,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <!-- Author Info -->
         <TextView
             android:id="@+id/txtAuthor"
             android:text="Author : NUR SABRINA BINTI MAMAT"
@@ -75,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- GitHub Link -->
+
         <TextView
             android:id="@+id/txtGithub"
             android:text="Open GitHub Repository"
