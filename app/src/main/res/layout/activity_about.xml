@@ -33,7 +33,7 @@
 
             android:layout_marginBottom="10dp"
             android:layout_gravity="center"
-            android:src="@drawable/gambar_self"
+            android:src="@drawable/calculator_img"
             android:scaleType="centerCrop" />
         <!-- Title -->
         <TextView
@@ -68,7 +68,7 @@
 
         <TextView
             android:id="@+id/txtCourse"
-            android:text="Course : ICT602"
+            android:text="Course : CS240"
             android:textSize="18sp"
             android:textColor="#000000"
             android:gravity="center"
@@ -91,6 +91,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+        <TextView
+            android:id="@+id/txtCopyright"
+            android:text="© 2025 Dividend Calculator App. All Rights Reserved."
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 </LinearLayout>
