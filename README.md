@@ -79,6 +79,9 @@ app/
 ![Screenshot](https://github.com/sabrina2023214054/IndividuAssignment/blob/master/app/src/main/screenshots/Calculator.png )
 ![Screenshot](https://github.com/sabrina2023214054/IndividuAssignment/blob/master/app/src/main/screenshots/Home.png )
 
+APK
+app-debug.apk
+
 🔗 GitHub Repository
 ➡️ https://github.com/sabrina2023214054/IndividuAssignment  
 
